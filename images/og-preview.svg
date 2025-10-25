@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <text x="60" y="240" font-size="64" fill="#e6e6e6"
+        font-family="Inter,Segoe UI,Arial" font-weight="700">
+    Charles Canady • Full-Stack Developer
+  </text>
+  <text x="60" y="340" font-size="36" fill="#bbbbbb"
+        font-family="Inter,Segoe UI,Arial">
+    React • Next.js • Node • Django • PostgreSQL
+  </text>
+  <rect x="60" y="400" width="360" height="8" fill="#0077ff"/>
+</svg>
