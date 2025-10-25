@@ -1,0 +1,9 @@
+a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.2s ease;
+}
+img {
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

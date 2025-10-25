@@ -1,0 +1,11 @@
+# Ignore OS/browser/editor/system stuff
+AppData/
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
