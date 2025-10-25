@@ -1,8 +1,55 @@
-<h1>Charles Canady</h1>
-<p>Aspiring full-stack developer and creative technologist based in the U.S.</p>
-<img src="images/profile.jpg" alt="Charles Canady" width="160" height="160" style="border-radius:50%;margin-top:1rem;">
-<div class="project-card">
-  <h3>Portfolio v1</h3>
-  <p>My first live project — built with HTML5 and CSS3, deployed via GitHub Pages.</p>
-  <a href="https://<yourusername>.github.io/portfolio-v1" target="_blank">View Project</a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charles Canady | Full-Stack Developer</title>
+
+  <!-- ✅ Step 6A — SEO & Social Meta -->
+  <meta name="description" content="Full-stack developer portfolio of Charles Canady — React, Next.js, Node, Django, PostgreSQL." />
+  <meta name="author" content="Charles Canady" />
+  <link rel="icon" href="images/favicon.png" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Charles Canady | Full-Stack Developer" />
+  <meta property="og:description" content="Projects in React, Next.js, Node, Django, PostgreSQL." />
+  <meta property="og:image" content="https://ksuze55.github.io/portfolio-v1/images/og-preview.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Charles Canady</h1>
+    <p>Aspiring full-stack developer and creative technologist based in the U.S.</p>
+    <img src="images/profile.jpg" alt="Charles Canady"
+         width="160" height="160"
+         style="border-radius:50%;margin-top:1rem;">
+  </header>
+
+  <!-- ✅ Step 6C — Projects Grid -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="project-card">
+        <h3>Portfolio v1</h3>
+        <p>My first live project — built with HTML5 and CSS3, deployed via GitHub Pages.</p>
+        <a href="https://ksuze55.github.io/portfolio-v1" target="_blank">Live</a>
+        <a href="https://github.com/ksuze55/portfolio-v1" target="_blank">Code</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ✅ Step 6D — Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me: <a href="mailto:ksuze55@example.com">ksuze55@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Charles Canady – Built with ❤️ and HTML/CSS</p>
+  </footer>
+</body>
+</html>
